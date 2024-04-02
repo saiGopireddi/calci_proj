@@ -12,19 +12,19 @@ public class CalciTest{
 	@Test
 	public void testSub() {
 		CalciApp calciObj =new CalciApp();
-		int subtraction = calciObj.add(8, 4);
+		int subtraction = calciObj.sub(8, 4);
 		assertEquals(4, subtraction);	
 	}
 	@Test
 	public void testMul() {
 		CalciApp calciObj =new CalciApp();
-		int multiplication = calciObj.add(4, 8);
+		int multiplication = calciObj.mul(4, 8);
 		assertEquals(32, multiplication);	
 	}
 	@Test
 	public void testDiv() {
 		CalciApp calciObj =new CalciApp();
-		int division = calciObj.add(10, 2);
+		int division = calciObj.div(10, 2);
 		assertEquals(5, division);	
 	}	
 }
